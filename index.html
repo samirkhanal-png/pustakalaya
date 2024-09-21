@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Pustakalaya</div>
+        <button class="menu-toggle">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="home">
+        <div class="slide" style="background-image: url('./images/Banner.png')"></div>
+    </section>
+
+    <!-- Available Books Section -->
+    <section id="collection" class="books-section">
+        <h2>Available Books</h2>
+        <div class="books-container">
+            <!-- <div class="book-card">
+                <img src="book-cover.jpg" alt="Book Cover">
+                <h3>Book Title</h3>
+                <p>Author Name</p>
+                <p>Genre | Publication Date</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Search by Author Name or Title -->
+    <section id="search">
+        <div id="searchBy">
+            <h2>Search books by</h2> <button class="btn" id="ByAuthor">Author Name</button>
+            <button class="btn" id="ByTitle">Title</button>
+        </div>
+        
+        <input type="text" id="search-bar" placeholder="Search by title or author...">
+        <div id="available-books">
+
+        </div>
+    </section>
+
+
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pustakalaya Collection. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
